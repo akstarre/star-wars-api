@@ -1,0 +1,82 @@
+/* Star Wars-themed CSS */
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+/* Center the Star Wars logo image */
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  max-width: 400px;
+  padding-top: 20px;
+}
+
+/* Center the search bar */
+form {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  margin-right: 10px;
+  width: 300px;
+}
+
+input[type="submit"] {
+  background-color: white;
+  color: black;
+  font-size: 24px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Center the results */
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.char-image {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  max-width: 400px;
+  padding-top: 20px;
+}
+
+.card {
+  border: 2px solid white;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+  width: 300px;
+}
+
+.card h2 {
+  font-size: 28px;
+  margin-top: 0;
+}
+
+.card p {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.card a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
